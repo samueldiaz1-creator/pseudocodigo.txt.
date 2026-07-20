@@ -23,3 +23,21 @@ Las entradas del sistema consisten en un arreglo de números flotantes que repre
 | **Caso 1** | Flujo Típico / Normal | Cantidad: `3`<br>Notas: `[8.5, 6.0, 9.0]`<br>Buscar: `6.0` | Notas ordenadas: `[6.0, 8.5, 9.0]`<br>Promedio: `7.83`<br>Posición búsqueda: `0` | Exitoso. Muestra el reporte ordenado y la posición correcta en el arreglo. |
 | **Caso 2** | Caso Límite (Extremos) | Cantidad: `2`<br>Notas: `[0.0, 10.0]`<br>Buscar: `10.0` | Notas ordenadas: `[0.0, 10.0]`<br>Promedio: `5.0`<br>Posición búsqueda: `1` | Exitoso. Valida correctamente las notas en los extremos permitidos (0 y 10). |
 | **Caso 3** | Caso Error (Sin resultado) | Cantidad: `3`<br>Notas: `[7.0, 5.5, 8.0]`<br>Buscar: `4.0` | Notas ordenadas: `[5.5, 7.0, 8.0]`<br>Promedio: `6.83`<br>Posición búsqueda: `-1` | Exitoso. Identifica que el elemento no existe y el módulo de búsqueda retorna `-1`. |Doc: Agregar descripción y tablas de pruebas
+# 1. Subir la descripción
+git add README.md
+git commit -m "Doc: Agregar descripción del sistema en lenguaje natural"
+
+# 2. Subir el pseudocódigo
+git add pseudocodigo.txt
+git commit -m "Code: Implementar estructura modular y ordenamiento Bubble Sort con bandera"
+
+# 3. Subir las tablas de complejidad y pruebas
+git add README.md
+git commit -m "Doc: Agregar tablas de análisis Big O y casos de prueba cuantitativos"
+
+# 4. Subir el diagrama de flujo y guardarlo en el repositorio
+git add img/diagrama.png README.md
+git commit -m "Doc: Agregar diagrama de arquitectura del algoritmo principal"
+
+# 5. Enviar todo a GitHub
+git push origin main
